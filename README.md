@@ -5,8 +5,8 @@ CERTIFIED TECH DEVELOPER-DIGITAL HOUSE
 
 Los proyectos desarrollados durante le curso se alojan en la carpeta raíz de este repositorio. A continuación, se listaran con su orden cronológico de elaboración, una breve descripción y su respectivo link para su visualización.
 
-    1.ProyectoReceta: se construye una receta para identificar las etiquetas principales de HTML, su importancia y nivel semantico. Link: [RecetaPieLimon](https://github.com/developerjson21/DH_FRONT_END_1/blob/main/Receta_Lemon_Pie/index.html) 
-    2.CVBatman: se construye la hoja de vida de batman para aplicar los primeros estilos css visto en el curso. Link:[CVBatman]()
+1.ProyectoReceta: se construye una receta para identificar las etiquetas principales de HTML, su importancia y nivel semantico. Link: [RecetaPieLimon](https://github.com/developerjson21/DH_FRONT_END_1/blob/main/Receta_Lemon_Pie/index.html) 
+2.CVBatman: se construye la hoja de vida de batman para aplicar los primeros estilos css visto en el curso. Link:[CVBatman]()
 
 **Lenguajes**
 HTML
