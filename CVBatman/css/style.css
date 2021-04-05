@@ -12,12 +12,14 @@ main{
     line-height: 2;
 }
 h1, h2{
-    background-color: #bfbfbf;
+    background-color: #198156;
     text-transform: uppercase;
+    color: #dadd22 ;
 }
 
 h1{
-    color: #136b6b;
+    color: #e1e7ec;
+    background-color: #136b6b;
 }
 
 span{
