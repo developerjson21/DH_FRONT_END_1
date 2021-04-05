@@ -19,3 +19,14 @@ h1, h2{
 h1{
     color: #136b6b;
 }
+
+span{
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+footer{
+    background-color: #136b6b;
+    color: white;
+    text-align: center;
+}
