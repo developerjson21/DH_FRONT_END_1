@@ -1,7 +1,11 @@
+*{
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
 header{
     background-image: url('/img/lemon-pie.png');
     background-repeat: no-repeat;
     background-size: cover;
-    
+    color: white;
 }
 
