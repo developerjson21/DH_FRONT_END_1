@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/formu.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="descuento">
+        <p> 20% de descuento en todos los productos! </p>
+    </div>
+    <header>
+        <img src="" alt="">
+        <h1>Nombre Tienda</h1>
+    </header>
+    <main>
+        <section>
+            <form action="" method="POST">
+                <h3>Añadí tu super!</h3>
+                <p class="titulo2">Agregá tu personaje favorito completando las opciones.</p>
+                <div class="contenedor1">
+                    <fieldset>
+                        
+                        <label for="nombre">*Nombre</label>
+                        <br>
+                        
+                        <input type="text" name="nombre" id="nombre" placeholder="Ej: 'Stiven Mesa'">
+                        <br>
+                        <br>
+                        <label for="date">Fecha</label>
+                        <input type="date" name="fecha" id="date">
+                        <br>
+                        <br>
+                        <textarea name="Descripcion" id="comentarios" cols="40" rows="10" placeholder="Descripcion"></textarea>
+                    </fieldset>
+                </div>
+                <div class="contenedor2">
+                    <fieldset>
+                        <label for="especie">*Especie</label>
+                        <br>
+                        <input type="text" name="especie" id="especie" placeholder="Especie">
+                        <select name="lista" id="especie-button">
+                            <option value=""></option>
+                        </select>
+                        <br>
+                        <br>
+                        <br>
+                        <label for="foto">Agregar Foto</label>
+                        <br>
+                        <input type="file" name="foto" id="foto" placeholder="Seleccionar archivo">
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                        <label for="poderes">Poderes</label>
+                        <br>
+                        <input type="checkbox" name="volar" id="volar">
+                        <label for="volar">Volar</label>
+                        
+                        <input type="checkbox" name="inteligencia" id="inteligencia">
+                        <label for="inteligencia">Super Inteligencia</label>
+
+                        <input type="checkbox" name="rayolaser" id="rayolaser">
+                        <label for="rayolaser">Vista de rayo laser</label>
+
+                        <input type="checkbox" name="billetera" id="billetera">
+                        <label for="billetera">Billetera Gorda</label>
+                        <br>
+
+                        <label for="tipo">Tipo de personaje</label>
+
+                        <input type="radio" name="heroe-heroina" id="heroe-heroina">
+                        <label for="heroe-heroina">Heroe/Heroina</label>
+                        <input type="radio" name="villano-villana" id="villano-villana">
+                        <label for="villano-villana">Villano/Villana</label>
+
+                        
+                    </fieldset>
+
+                </div>
+                <button type="submit" id="button-añadir" >Añadir</button>
+            </form>
+        </section>
+       
+    </main>    
+
+
+    <footer>Todos los derechos reservados a FRONT END I</footer>
+    
+</body>
+</html>

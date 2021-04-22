@@ -1,0 +1,161 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+
+}
+.descuento{
+    position: relative;
+    background: #1CD1B0;
+    padding-left: 18px;
+    font-weight: bold;
+    font-size: 23px;
+    width: 1920px;
+    height: 61;
+}
+
+header{
+    position: sticky;
+    top: 0;
+    background: #00669F;
+    box-shadow: 0px 10px 7px rgba(0, 0, 0, 0.25);
+    width: 1920px;
+    height: 80px;
+}
+h1{
+margin-left: 130px;
+font-style: normal;
+font-weight: normal;
+font-size: 30px;
+color: #FFFFFF; 
+    
+}
+
+section{
+    position: absolute;
+    width: 954px;
+    height: 832px;
+    left: 243px;
+    top: 160px;
+    margin-left: 300px;
+    background: #00669F;
+    box-shadow: 0px 0px 2px 1px rgba(0, 0, 0, 0.3);
+    border-radius: 49.0901px;
+
+}
+
+form h3{
+    font-family: Inter;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 72px;
+    color: white;
+    text-align: center;
+}
+.titulo2{
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 14px;
+    color: white;
+    text-align: center;
+
+}
+.contenedor1{
+    display: inline-block;
+    
+    height: 600px;
+    margin-left: 100px;
+
+    
+}
+.contenedor2{
+    display: inline-block;
+     
+    height: 600px;
+    margin-left: 30px;
+    margin-top: 0px;
+}
+#especie{
+    background: #FFFFFF;
+    border: 1.53407px solid rgba(0, 0, 0, 0.1);
+    box-sizing: border-box;
+    border-radius: 15.3407px;
+    width: 342px;
+    height: 63px;
+    left: 732px;
+    top: 329px;
+}
+#foto{
+    width: 200px;
+    height: 32px;
+    left: 730px;
+    top: 481px;
+
+    background: #CECECE;
+    border-radius: 5px;
+}
+fieldset{
+   
+    display: block;
+    
+    height: 600px;
+}
+label{
+    display: block;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 250;
+    font-size: 20px;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+.contenedor1 input{
+    display: block;
+    background: #FFFFFF;
+    border: 1.53407px solid rgba(0, 0, 0, 0.1);
+    border-radius: 15.3407px;
+    width: 342px;
+    height: 63px;
+    left: 732px;
+    top: 329px;
+}
+
+textarea{
+    border-radius: 10px;
+    width: 343px;
+    height: 307px;
+    left: 367px;
+    top: 559px;
+}
+footer{
+    position: absolute;
+    left: -1px;
+    top: 1055px;    
+    width: 1920px;
+    height: 80px;
+    background: #00669F;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    text-align: center;
+    padding: 30px;
+    font-size: 16px;
+    color: #FFF9F9;
+    
+}
+
+#button-añadir{
+    display: block;
+    width: 366px;
+    height: 87px;
+    left: 487px;
+    top: 911px;
+    margin-left: 300px;
+    margin-top: 30px;
+    background: #1CD1B0;
+    border-radius: 23.011px;
+    font-size: 40px;
+    font-weight: bold;
+}
