@@ -124,6 +124,13 @@ label{
     top: 329px;
 }
 
+.nombre::before{
+    content: '*';
+}
+.especie::before{
+    content: '*';
+}
+
 textarea{
     border-radius: 10px;
     width: 343px;
