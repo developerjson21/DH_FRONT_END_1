@@ -25,54 +25,74 @@ header{
     box-shadow: 0px 10px 7px rgba(0, 0, 0, 0.25);
     width: 1920px;
     height: 80px;
+    z-index: 10;
 }
 h1{
     color: white;
-    
     padding: 20px;
 }
 
 
-i{
-    position: relative;
+#corazon{
+    position: absolute;
     color: red;
+    left: 21px;
+    top: 14px;
+    font-size: 25px;
 }
-
 .cards-content{
     position: relative;   
-    background-color: rosybrown;
-    margin-top: 40px;
     padding: 0 50px 0 50px;
-    border: 5px solid black;
+    margin-left: 500px;
+    margin-top: 40px;
+    margin-bottom: 40px;
 }
-
+#boton+{
+    position: relative;
+    width: 82px;
+    height: 82px;
+    left: 1324px;
+    top: 517px;
+    background-color:  #00669F;
+}
 .card{
     position: relative;
     margin: 50px;
-    background-color: yellow;
     justify-content: center;
-    
-    margin: 0 500px 0 500px;
+    width: 300px;
+    height: 530px;
     max-width: 400px;
-    
+    background-color:#F3F3F3;
+    border-radius: 16px 16px 0px 0px; 
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+h2{
+    text-transform: uppercase;
+    font-size: 30px;
+    margin-top: 40px;
+    text-align: center;
+}
+p{
+  
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
 }
 .image-fondo{
-   
+    position: relative;
     background-image: url('../img/bg-batman.jpg');
     background-size: cover;
-    
-    height: 250px;
-   
+    height: 190px;
+    width: 100%;
+    border-radius: 16px 16px 0px 0px;
 
 }
 .cards-info{
    position: relative; 
    padding: 50px 10px 20px 10px;
-    
-    background-color: blueviolet;
-    
-    
-        
+   background-color:#F3F3F3;      
 
 }
 .cards-info img {
@@ -84,5 +104,24 @@ i{
     left: 70px;
     top: -70px;
 }
-
+button{
+    margin-top: 40px;
+    margin-left: 80px;
+    width: 128.78px;
+    height: 48.52px;
+    left: 295px;
+    top: 780px;
+    background-color: #00669F;
+    color: #F3F3F3;
+    text-decoration: none;
+    
+}
+footer{
+    background: #00669F;
+    text-align: center;
+    color: white;
+    height: 80px;
+    font-size: 20px;
+    padding: 30px;
+}
 
