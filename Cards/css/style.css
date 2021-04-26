@@ -14,7 +14,7 @@
     padding-left: 18px;
     font-weight: bold;
     font-size: 23px;
-    width: 1920px;
+    width: 1520px;
     height: 61;
 }
 
@@ -23,9 +23,9 @@ header{
     top: 0;
     background: #00669F;
     box-shadow: 0px 10px 7px rgba(0, 0, 0, 0.25);
-    width: 1920px;
     height: 80px;
     z-index: 10;
+
 }
 h1{
     color: white;
@@ -80,9 +80,27 @@ p{
     font-size: 16px;
     line-height: 19px;
 }
-.image-fondo{
+.batman{
     position: relative;
     background-image: url('../img/bg-batman.jpg');
+    background-size: cover;
+    height: 190px;
+    width: 100%;
+    border-radius: 16px 16px 0px 0px;
+
+}
+.wonderw{
+    position: relative;
+    background-image: url('../img/bg-wonderw.jpg');
+    background-size: cover;
+    height: 190px;
+    width: 100%;
+    border-radius: 16px 16px 0px 0px;
+
+}
+.superman{
+    position: relative;
+    background-image: url('../img/bg-superman.jpg');
     background-size: cover;
     height: 190px;
     width: 100%;
@@ -97,7 +115,6 @@ p{
 }
 .cards-info img {
     position: absolute;
-
     width: 150px;
     height: 150px;
     border-radius: 50%;
