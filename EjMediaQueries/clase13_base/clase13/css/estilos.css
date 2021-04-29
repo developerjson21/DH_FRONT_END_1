@@ -209,11 +209,10 @@ footer ul {
         display: block;
         
     }
-    .news-letter{
-        display: flex;
-        
+    .caja-2{
+        width: 100%;
     }
-}
+    
 @media all and(max-width: 430px){
    
     .papa-directo{
